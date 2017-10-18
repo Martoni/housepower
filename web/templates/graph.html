@@ -1,0 +1,21 @@
+<html>
+  <head>
+<link
+    href="http://cdn.pydata.org/bokeh/release/bokeh-0.12.9.min.css"
+    rel="stylesheet" type="text/css">
+<link
+    href="http://cdn.pydata.org/bokeh/release/bokeh-widgets-0.12.9.min.css"
+    rel="stylesheet" type="text/css">
+
+    <script src="http://cdn.pydata.org/bokeh/release/bokeh-0.12.9.min.js"></script>
+    <script src="http://cdn.pydata.org/bokeh/release/bokeh-widgets-0.12.9.min.js"></script>
+
+    {{ bk_script | safe }}
+  </head>
+  <body>
+    <div class=page>
+      <h1>Test</h1>
+      {{ bk_div | safe }}
+    </div>
+  </body>
+</html>
